@@ -1,6 +1,6 @@
 {
   "name": "ingenuity-labs-api-client",
-  "version": "1.1.8",
+  "version": "1.2.1",
   "dependencies": {
     "react-native": "^0.48.4"
   },
@@ -19,5 +19,5 @@
   ],
   "author": "Jason Jon E. Carreos",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/jasonjonecarreos/ingenuity-labs-api-client#readme"
+  "homepage": "https://bitbucket.org/ingenuityph/ingenuity-labs-api-client#readme"
 }
