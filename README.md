@@ -1,12 +1,12 @@
-# ingenuity-labs-api-client [![NPM version](https://badge.fury.io/js/ingenuity-labs-api-client.svg)](https://npmjs.org/package/ingenuity-labs-api-client) [![Build Status](https://travis-ci.org/jasonjonecarreos/ingenuity-labs-api-client.svg?branch=master)](https://travis-ci.org/jasonjonecarreos/ingenuity-labs-api-client)
+# react-native-api-client-wrapper [![NPM version](https://badge.fury.io/js/react-native-api-client-wrapper.svg)](https://npmjs.org/package/react-native-api-client-wrapper) [![Build Status](https://travis-ci.org/jasonjonecarreos/react-native-api-client-wrapper.svg?branch=master)](https://travis-ci.org/jasonjonecarreos/react-native-api-client-wrapper)
 
-> An API client wrapper for React Native projects thru the initiative of Ingenuity Labs.
+> An API client wrapper for React Native only projects thru the initiative of Ingenuity Labs.
 
 ## Installation
 
 To install the package, enter the command in your terminal:
 ```sh
-$ npm install --save ingenuity-labs-api-client
+$ npm install --save react-native-api-client-wrapper
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ npm install --save ingenuity-labs-api-client
 The `APIClient` is a class that requires two(2) parameters for its constructor: `url` and `method`. Initializing a new instance is as follows:
 
 ```js
-import { APIClient, APIConstants } from 'ingenuity-labs-api-client';
+import { APIClient, APIConstants } from 'react-native-api-client-wrapper';
 
 let url = 'https://www.sample.com/contents/';
 let client = new APIClient(url, APIConstants.HTTPMethod.GET);

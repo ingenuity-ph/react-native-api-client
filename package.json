@@ -1,23 +1,16 @@
 {
-  "name": "ingenuity-labs-api-client",
-  "version": "1.2.1",
-  "dependencies": {
-    "react-native": "^0.48.4"
-  },
-  "description": "An API client wrapper for React Native projects",
+  "name": "react-native-api-client-wrapper",
+  "version": "1.0.2",
+  "description": "An API client wrapper for React Native only projects thru the initiative of Ingenuity Labs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org:ingenuityph/ingenuity-labs-api-client.git"
+    "url": "git+ssh://git@bitbucket.org:ingenuityph/react-native-api-client.git"
   },
-  "keywords": [
-    "API",
-    "client"
-  ],
   "author": "Jason Jon E. Carreos",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ingenuityph/ingenuity-labs-api-client#readme"
+  "homepage": "https://bitbucket.org/ingenuityph/react-native-api-client#readme"
 }
