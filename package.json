@@ -1,6 +1,6 @@
 {
   "name": "react-native-api-client-wrapper",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "An API client wrapper for React Native only projects thru the initiative of Ingenuity Labs.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org:ingenuityph/react-native-api-client.git"
+  },
+  "dependencies": {
+    "react-native-async-storage-wrapper": "^1.0.0"
   },
   "author": "Jason Jon E. Carreos",
   "license": "ISC",

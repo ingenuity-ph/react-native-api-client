@@ -1,6 +1,6 @@
 import {
-    AsyncStorage
-} from 'react-native';
+  AsyncStorage
+} from 'react-native-async-storage-wrapper';
 
 
 const APIUtils = {
@@ -15,25 +15,11 @@ const APIUtils = {
   },
 
   getAccessToken: () => {
-    return new Promise(async function(resolve, reject) {
-      try {
-        var token = await AsyncStorage.getItem('user.accessToken');
-
-        resolve(token);
-      } catch (error) {
-        console.log(String.format('%s - %s', 'Error getting access token', error));
-
-        reject();
-      }
-    });
+    return AsyncStorage.getObjectWithIdentifier('user.accessToken');
   },
 
   setAccessToken: async (token) => {
-    try {
-      await AsyncStorage.setItem('user.accessToken', token);
-    } catch (error) {
-      console.log(String.format('%s - %s', 'Error setting access token', error));
-    }
+    AsyncStorage.setObjectWithIdentifier(token, 'user.accessToken');
   },
 
 };
