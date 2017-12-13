@@ -6,7 +6,7 @@
 
 To install the package, enter the command in your terminal:
 ```sh
-$ npm install --save react-native-api-client-wrapper
+$ npm install --save @ingenuity-labs/react-native-api-client-wrapper
 ```
 
 ## Usage

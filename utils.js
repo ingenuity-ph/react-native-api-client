@@ -1,6 +1,6 @@
 import {
   AsyncStorage
-} from 'react-native-async-storage-wrapper';
+} from '@ingenuity-labs/react-native-async-storage-wrapper';
 
 
 const APIUtils = {
