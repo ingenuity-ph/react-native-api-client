@@ -1,5 +1,4 @@
 const APIConstants = {
-
   AuthenticationType: {
     BASIC: 'Basic',
     BEARER: 'Bearer',
@@ -7,21 +6,20 @@ const APIConstants = {
   },
   ContentType: {
     JSON: 'application/json',
-    URLEncoded: 'application/x-www-form-urlencoded'
+    URLEncoded: 'application/x-www-form-urlencoded',
   },
   HTTPMethod: {
     GET: 'GET',
     DELETE: 'DELETE',
     POST: 'POST',
-    PUT: 'PUT'
+    PUT: 'PUT',
   },
   StatusCode: {
     SUCCESS: 200,
     REDIRECTION: 300,
     CLIENT_ERROR: 400,
-    SERVER_ERROR: 500
-  }
-
+    SERVER_ERROR: 500,
+  },
 };
 
 /* Export ==================================================================== */

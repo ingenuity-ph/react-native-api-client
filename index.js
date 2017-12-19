@@ -5,7 +5,7 @@ import APIUtils from './utils';
 /* Export ==================================================================== */
 
 module.exports = {
-  APIClient: APIClient,
-  APIConstants: APIConstants,
-  APIUtils: APIUtils
-}
+  APIClient,
+  APIConstants,
+  APIUtils,
+};
