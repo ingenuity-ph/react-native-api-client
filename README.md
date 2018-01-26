@@ -9,6 +9,11 @@ To install the package, enter the command in your terminal:
 $ npm install --save @ingenuity-labs/react-native-api-client-wrapper
 ```
 
+## Dependencies
+```
+@ingenuity-labs/react-native-async-storage-wrapper
+```
+
 ## Usage
 ### APIClient
 The `APIClient` is a class that requires two(2) parameters for its constructor: `url` and `method`. Initializing a new instance is as follows:
@@ -132,6 +137,14 @@ setAccessToken: async (token) => {
 }
 ```
 
+## Contributing
+
+1. Fork repository
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
+
 ## License
 
-ISC © [Jason Jon E. Carreos]()
+MIT
