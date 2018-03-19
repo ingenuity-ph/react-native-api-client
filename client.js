@@ -3,7 +3,6 @@ import _ from 'lodash';
 import APIConstants from './constants';
 import APIUtils from './utils';
 
-
 function convertQueryString(queryParams = {}) {
   const esc = encodeURIComponent;
   const query = Object.keys(queryParams)
@@ -50,6 +49,7 @@ function performRequest(headers, params, authorize, authType = null) {
           this.url = this.url + convertQueryString(params);
 
           break;
+        case APIConstants.HTTPMethod.PATCH:
         case APIConstants.HTTPMethod.POST:
         case APIConstants.HTTPMethod.PUT:
           fetchParams.body = JSON.stringify(params);

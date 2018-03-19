@@ -1,6 +1,6 @@
 {
   "name": "@ingenuity-labs/react-native-api-client-wrapper",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "An API client wrapper for React Native only projects thru the initiative of Ingenuity Labs.",
   "main": "index.js",
   "scripts": {
